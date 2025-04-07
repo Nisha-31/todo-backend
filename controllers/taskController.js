@@ -1,6 +1,6 @@
 // controllers/taskController.js
 import { validationResult } from 'express-validator';
-import Task from '../models/Task.js'; // ✅ Import Task model only
+import Task from '../models/Task.js'; 
 
 export async function getTasks(req, res) {
   try {

@@ -1,6 +1,6 @@
 // middleware/authMiddleware.js
-import jwt from 'jsonwebtoken'; // ✅ Import the default export
-const { verify } = jwt; // ✅ Extract verify
+import jwt from 'jsonwebtoken'; 
+const { verify } = jwt;
 
 
 const authMiddleware = (req, res, next) => {

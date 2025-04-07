@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const UserSchema = new mongoose.Schema({
     username: { type: String, required: true, unique: true },
-    email: {  // ✅ Make sure this is present!
+    email: {  
         type: String,
         required: true,
         unique: true,
@@ -14,4 +14,4 @@ const UserSchema = new mongoose.Schema({
 
 const User = mongoose.model('User', UserSchema);
 
-export default User;  // ✅ Export the model
+export default User; 
