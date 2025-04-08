@@ -49,13 +49,18 @@ API Endpoints
 
 Method	Route	Description
 POST	/api/register	Register user
+
+
 POST	/api/login	Login user
 
 Tasks (Requires Auth)
 Method	Route	Description
 GET	/api/tasks	Get all tasks
+
 POST	/api/tasks	Create a task
+
 PUT	/api/tasks/:id	Update a task
+
 DELETE	/api/tasks/:id	Delete a task
 
 Use the token returned from login in the Authorization header like:
